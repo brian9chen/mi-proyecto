@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Project</title>
+  <link rel="icon" href="path/to/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+  <meta name="description" content="A brief description of your project">
+  <meta property="og:title" content="Mi Proyecto">
+  <meta property="og:description" content="A tool to help you practice speaking Spanish. Peronalize your practice session before talking to the AI teacher.">
+  <meta property="og:image" content="path/to/og-image.jpg">
+  <meta property="og:url" content="http://www.example.com">
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+  <header>
+    <h1>Conversar</h1>
+  </header>
+  <main>
+    <div id="loading">Loading...</div>
+    <div id="root" role="main" style="display: none;"></div>
+  </main>
+  <footer>
+    <p>&copy; 2024 Conversar</p>
+  </footer>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.getElementById('loading').style.display = 'none';
+      document.getElementById('root').style.display = 'block';
+    });
+  </script>
+</body>
+</html>

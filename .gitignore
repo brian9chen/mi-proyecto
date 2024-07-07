@@ -1,0 +1,18 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore environment variables file
+.env
+
+# # Ignore logs
+# logs/
+# *.log
+# npm-debug.log*
+
+# # Ignore compiled output
+# dist/
+# build/
+
+# # Ignore any other sensitive or temporary files
+# .DS_Store
+# .tmp/
